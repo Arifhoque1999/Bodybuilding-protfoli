@@ -1,0 +1,33 @@
+body{
+  background-color: #f3f4f5;
+}
+#header {
+  /* border: 5px solid red; */
+  background-color: #6366f1;
+  display: flex;
+  justify-content: space-around;
+}
+#company-name {
+  width: 10%;
+}
+#navbar {
+  width: 85%;
+}
+#only-img {
+  /* background-image: url("background.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+.nav-link {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.disabled {
+  color: 1185F9;
+}
+@media only screen and (max-width: 960px) {
+  #company-name h1{
+    font-size: smaller !important;
+  }
+}
